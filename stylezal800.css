@@ -1,0 +1,183 @@
+﻿.screen
+	{
+	position: absolute;
+	font-size: 25px;
+	padding: 10px;
+	border-radius: 53em/5em;
+	text-align: center;
+	border-top: 4px solid black;
+	height: 50px;
+	width: 700px;
+	margin-top: 50px;
+	margin-left: 306.5;
+	background: #DCDCDC;
+	}
+	
+.home
+	{
+	text-decoration: none;
+	font-size: 25px;
+	position: absolute;
+	top: 55;
+	left: 40;
+	}
+	
+.places
+	{
+	position: absolute;
+	margin-top: 120;
+	margin-left: 335.5;
+	display: block;
+	background: white;
+	width: 700px;
+	height: 250px;
+	background: #DCDCDC;
+	}
+	
+.place
+	{
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+	margin: 3px;
+	background: white;
+	width: 24px;
+	height: 24px;
+	transition: 0.5s;
+	line-height: 24px;
+	color: white;
+	box-shadow: 0 1px 3px 1px #A9A9A9;
+	font-weight: bold;
+	}
+	
+.btn
+	{
+	position: absolute;
+	height: 30px;
+	width: 120px;
+	font-size: 20px;
+	left: 660;
+	bottom: 87;
+	display: none;
+	}
+	
+.one
+	{
+	margin-left: 110.5;
+	}
+	
+.one .place:hover
+	{
+	color: black;
+	transition: 0.7s;
+	transform: scale(1.5);
+	z-index: 2;
+	}
+	
+.place::before
+	{
+	font-size: 15px;
+	content: "4.5 руб";
+	position: absolute;
+	display: none;
+	top: -30;
+	left: -15;
+	width: 70;
+	}
+	
+.place:hover::before
+	{
+	font-weight: bold;
+	color: white;
+	display: block;	
+	width: 70;
+	height: 25px;
+	background: rgb(0, 0, 0);
+	opacity: .7;
+	}
+	
+.place:hover
+	{		
+	color: black;
+	transition: 0.7s;
+	transform: scale(1.5);
+	z-index: 2;
+	}	
+	
+.place.reservation
+	{
+	color: white;
+	background: #8B008B;
+	}
+	
+.place.book
+	{
+	color: #DCDCDC;
+	background: #DCDCDC;
+	box-shadow: inset 0 1px 3px 1px #A9A9A9;
+	transform: scale(1);
+	}
+	
+.place.book.reservation:hover
+	{
+	color: #DCDCDC;
+	background: #DCDCDC;
+	box-shadow: inset 0 1px 3px 1px #A9A9A9;
+	transform: scale(1);
+	}
+	
+.place.book::before
+	{
+	content: "";
+	color: none;
+	background: none;
+	}
+
+.place.reservation:hover
+	{
+	color: white;
+	}
+	
+.left-row
+	{
+	position: absolute;
+	top: 133;
+	left: 285;
+	}
+
+.right-row
+	{
+	position: absolute;
+	top: 133;
+	right: 295;
+	}	
+	
+.left-row span
+	{
+	font-size: 25px;
+	display: flex;
+	padding: 6px 0px 5px 0px;
+	font-weight: bold;
+	}
+	
+.right-row span
+	{
+	font-size: 25px;
+	display: flex;
+	padding: 6px 0px 5px 0px;
+	font-weight: bold;
+	}
+	
+.sum
+	{
+	position: absolute;
+	font-size: 25px;
+	bottom: 90;
+	left: 420;
+	}
+	
+body
+	{
+	background: #DCDCDC;
+	}

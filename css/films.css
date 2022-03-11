@@ -1,0 +1,65 @@
+.buy
+	{
+	text-decoration: none;
+	color: #8B008B;
+	margin-left: 17%;
+	font-size: 150%;
+	border: 1px solid;
+	padding: 8px;
+	}
+	
+.buy:hover
+	{
+	color: #DCDCDC;
+	background: #8B008B;
+	}
+			
+.text2
+	{
+	text-align: center;
+	color: #FFFFF;
+	margin: 15px 0px 10px 0px;
+	font-size: 110%;
+	}
+
+.ris
+	{
+	position: relative;
+	}
+		
+.dyn
+	{
+	margin: 20px 0px 2px 0px;
+	font-size: 80%;
+	}
+	
+.text3
+	{
+	color: black;
+	background: white;
+	border: 0;
+	width: 20px;
+	margin: 0px 0px 0px 2px;
+	}
+		
+body 
+	{
+	background-image: url(back1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	}
+	
+.main
+	{
+	background: #DCDCDC;
+	margin: 40px 15px 80px 25px;
+	padding: 15px 0px 30px 30px;
+	}
+	
+.main > .film
+	{
+	padding: 35px 15px 35px 25px;
+	position: relative;
+	left: -20;
+	display: inline-block;
+	}

@@ -1,0 +1,77 @@
+body
+	{
+	background: #DCDCDC;
+	}
+	
+.thank
+	{
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	width: 500px;
+	height: 150px;
+	border: 4px dotted black;
+	display: block;
+	}
+	
+.name
+	{
+	display: block;
+	position: relative;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 10px;
+	}
+	
+.time
+	{
+	position: relative;
+	font-style: italic;
+	font-weight: bold;
+	left: 380;
+	top: 60;
+	}
+	
+.row
+	{
+	font-size: 25px;
+	position: relative;
+	top: 10;
+	left: 15;
+	}
+
+.place
+	{
+	font-size: 25px;
+	position: relative;
+	top: -18.5;
+	left: 88;
+	}
+	
+.zal
+	{
+	font-size: 25px;
+	position: relative;
+	top: 10;
+	left: 15;
+	}
+	
+.num
+	{
+	position: relative;
+	font-size: 30px;
+	font-weight: bold;
+	bottom: 100;
+	left: 220;
+	}
+	
+a
+	{
+	position: absolute;
+	left: 0;
+	text-decoration: none;
+	font-size: 30px;
+	color: #8B008B;
+	margin: 20px 0px 0px 1050px;
+	}
